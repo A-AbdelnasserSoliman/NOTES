@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_DEPRECATE
+#include <iostream>
+
+
+int main(int argc, char** argv)
+{
+    //std::cout << "Hello World!\n";
+    argv[1] = (char*)"AAAAAAAAAAAAAAAAAA";
+    char buffer[10];
+    strcpy(buffer, argv[1]);
+    printf("It's all good!");
+    return 0;
+
+
+}
